@@ -162,7 +162,7 @@ export function OrderTracking({ orders, onBack }: OrderTrackingProps) {
               <div className="p-4">
                 <div className="mb-3">
                   <p className="text-sm text-gray-600 mb-2">
-                    {order.type === 'delivery' ? '🚚 Delivery' : '📍 Pickup'}
+                    {order.type === 'delivery' ? '🚚 Delivery' : '📍 Pickup at Bean and Brew '}
                     {order.address && ` • ${order.address}`}
                   </p>
                 </div>
